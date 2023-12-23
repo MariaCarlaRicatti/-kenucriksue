@@ -7,7 +7,7 @@
   
   :root {
     --clr-main: rgb(175, 104, 78);
-    --clr-main-light: #f39274;
+    --clr-main-light: #e9ac9a;
   }
   
   .container {
@@ -38,9 +38,6 @@
     border-radius: 180px;
   }
   
-  .cart{
-    width: 50px;
-  }
   .menu {
     list-style-type: none;
     display: flex;
@@ -56,6 +53,10 @@
   
   .menu-link:hover {
     text-decoration: underline;
+  }
+  
+  .cart{
+    width: 50px;
   }
   
   .productos {
@@ -179,6 +180,12 @@
     border: 2px solid black;
   }
   
+.numdepedido{
+  margin: 20px;
+  font-size: large;
+  color: rgb(141, 72, 141);
+}
+
   .formulario input:focus {
     outline: 0;
     border: 2px solid var(--clr-main);
