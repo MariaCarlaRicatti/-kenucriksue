@@ -165,7 +165,17 @@
     margin-top: 1rem;
     padding: 1rem;
   }
-  
+
+  .finalizar{
+    text-decoration: none;
+    background-color: rgb(87, 134, 87);
+    color: white;
+    padding: .5rem;
+    width: max-content;
+    border-radius: .5rem;
+    transition: .2s;
+    margin-top: 1rem;
+  }
   .formulario {
     display: flex;
     flex-direction: column;
